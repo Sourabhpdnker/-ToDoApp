@@ -1,0 +1,37 @@
+#mainheading{
+    margin: 5px;
+    text-align: center;
+    color: blueviolet;
+    font-size: 60px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+#subtitle{margin: 3px;
+    text-align: center;
+    color: blueviolet;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.navheading{
+    background-color: bisque;
+    margin:15px;
+    padding:7px;
+    border-radius: 20px;
+}
+.submain{
+    background-color: indianred;
+    height: 10pc;
+    width: 50pc;
+    border-radius: 20px;
+}
+#inputtask{
+    border: solid black;
+    align-items: center;
+    justify-content: center;
+}
+.addtaskbtn{
+    size: 5px;
+    background-color: black;
+    font-size:larger ;
+    color: aliceblue;
+}

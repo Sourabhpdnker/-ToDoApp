@@ -4,9 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>To-Do App</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>to-do app by Sourabh</h1>
-    
+    <div class="navheading">
+        <h1 id="mainheading">To Do App</h1>
+        <p id="subtitle">Manage Your task like a pro</p>
+    </div>
+    <div class="submain">
+            <input id="inputtask" type="text"> 
+            <button class="addtaskbtn"
+                onclick="currentTask = currentTask; document.querySelector('#display').value = currentTask">Add Task</button>
+    </div>
 </body>
+<script>
+    let currentTask = '';
+    document.querySelector('#display').value = currentTask;
+    console.log(currentTask);
+</script>
 </html>
