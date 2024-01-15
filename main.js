@@ -18,8 +18,8 @@ function displayTodoItem(){
     for(let i=0;i<todoList.length;i++){
         newHtml += `
             <div class="task-container2">
-            <h1>${todoList[i]}</h1>
-            <button class="add-button" onclick="todoList.splice(${i} , 1);
+            <h2>${todoList[i]}</h2>
+            <button class="delete-button" onclick="todoList.splice(${i} , 1);
             displayTodoItem();">Delete</button>
             </div>
              `;

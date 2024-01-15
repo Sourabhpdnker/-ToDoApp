@@ -91,11 +91,19 @@ body {
     background-color: #45a049;
   }
   .task-container2 {
-    background-color: #fff;
+    background-color: #7981fa;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    padding: 20px;
+    padding: 10px;
     width: 400px;
     text-align: center;
-    margin: 20px auto; /* Centering the container */
+    margin: 15px auto; /* Centering the container */
+  }
+  .delete-button {
+    background-color: #ac0000;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
   }
