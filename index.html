@@ -1,25 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>To-Do App</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="navbar">
+      <a href="#">Home</a>
+      <a href="#">Tasks</a>
+      <a href="#">About</a>
+    </div>
+
     <div class="navheading">
-        <h1 id="mainheading">To Do App</h1>
-        <p id="subtitle">Manage Your task like a pro</p>
+      <h1 id="mainheading">To Do App</h1>
+      <p id="subtitle">Manage Your task like a pro</p>
     </div>
-    <div class="submain">
-            <input id="inputtask" type="text"> 
-            <button class="addtaskbtn"
-                onclick="currentTask = currentTask; document.querySelector('#display').value = currentTask">Add Task</button>
+
+
+    <div class="task-container">
+      <input type="text" id="task-input" placeholder="Enter your task...">
+      <button class="add-button" onclick="addToDo();">Add Task</button>
     </div>
-</body>
-<script>
-    let currentTask = '';
-    document.querySelector('#display').value = currentTask;
-    console.log(currentTask);
-</script>
+      <div class="container-items"></div>
+  </body>
+  
+  <script src="main.js"></script>
 </html>

@@ -2,36 +2,100 @@
     margin: 5px;
     text-align: center;
     color: blueviolet;
-    font-size: 60px;
+    font-size: 42px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-
 }
-#subtitle{margin: 3px;
+#mainheading:hover{
+    margin: 5px;
     text-align: center;
-    color: blueviolet;
-    font-size: 20px;
+    color: rgb(81, 43, 117);
+    font-size: 46px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#subtitle{
+    margin: 3px;
+    text-align: center;
+    color: rgb(27, 6, 48);
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#subtitle:hover{
+    margin: 3px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 21px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .navheading{
-    background-color: bisque;
-    margin:15px;
+    background-color: rgb(250, 193, 123);
+    margin:10px;
     padding:7px;
     border-radius: 20px;
 }
-.submain{
-    background-color: indianred;
-    height: 10pc;
-    width: 50pc;
-    border-radius: 20px;
-}
-#inputtask{
-    border: solid black;
-    align-items: center;
-    justify-content: center;
-}
-.addtaskbtn{
-    size: 5px;
-    background-color: black;
-    font-size:larger ;
-    color: aliceblue;
-}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+
+  .navbar {
+    background-color: #333;
+    overflow: hidden;
+  }
+
+  .navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  .navbar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+  .task-container {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    margin: 20px auto; /* Centering the container */
+  }
+  .task-input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+
+  .add-button {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  .add-button:hover {
+    background-color: #45a049;
+  }
+  .task-container2 {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 400px;
+    text-align: center;
+    margin: 20px auto; /* Centering the container */
+  }
