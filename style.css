@@ -43,13 +43,15 @@ body {
   }
   .task-container {
     box-sizing: border-box;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 15px rgba(135, 4, 223, 0.986);
     background-color: #fff;
     border-radius: 8px;
     padding: 20px;
-    width: 400px;
+    width: 550px;
     text-align: center;
     margin: 20px auto; /* Centering the container */
+    display: flexbox;
+    
   }
   #task-input {
     width: 300px;
@@ -63,7 +65,7 @@ body {
     margin-bottom: 10px;
   }
   #task-input:focus {
-    border-bottom-color: #db2929
+    border-bottom-color: #1c06e0
   }
 
   .add-button {
@@ -85,9 +87,13 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.925);
     padding: 10px;
     width: 275px;
+    gap: 60px;
     height: fit-content;
     text-align: center;
-    margin: 15px auto; /* Centering the container */
+    margin: 15px;
+    margin-left: 65px; /* Centering the container */
+    display:inline-block;
+    justify-content: space-evenly;
   }
   .delete-button {
     background-color: #0f0092;
@@ -99,4 +105,11 @@ body {
   }
   .delete-button:hover {
     background-color: #c40000;
+  }
+  p{
+    color: rgb(65, 129, 0);
+  }
+  #datestyle{
+    font-size: 12px;
+    font-weight: 500;
   }
