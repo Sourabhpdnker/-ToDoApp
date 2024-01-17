@@ -1,85 +1,73 @@
 #mainheading{
     margin: 5px;
     text-align: center;
-    color: blueviolet;
+    color: rgb(253, 250, 250);
     font-size: 42px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 #mainheading:hover{
     margin: 5px;
     text-align: center;
-    color: rgb(81, 43, 117);
+    color: rgb(252, 251, 251);
     font-size: 46px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 #subtitle{
     margin: 3px;
     text-align: center;
-    color: rgb(27, 6, 48);
+    color: rgb(247, 243, 250);
     font-size: 18px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 #subtitle:hover{
     margin: 3px;
     text-align: center;
-    color: rgb(0, 0, 0);
+    color: rgb(214, 101, 248);
     font-size: 21px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .navheading{
-    background-color: rgb(250, 193, 123);
+    background-color: rgb(0, 5, 82);
     margin:10px;
     padding:7px;
-    border-radius: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(120, 0, 233, 0.925);
 }
 
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: #77a4f7;
     margin: 0;
     padding: 0;
   }
-
-  .navbar {
-    background-color: #333;
-    overflow: hidden;
-  }
-
-  .navbar a {
-    float: left;
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-
-  .navbar a:hover {
-    background-color: #ddd;
-    color: black;
-  }
-
   .task-container {
+    box-sizing: border-box;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
     background-color: #fff;
     border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     padding: 20px;
-    width: 300px;
+    width: 400px;
     text-align: center;
     margin: 20px auto; /* Centering the container */
   }
-  .task-input {
-    width: 100%;
+  #task-input {
+    width: 300px;
     padding: 10px;
-    box-sizing: border-box;
-    border: 1px solid #ccc;
+    font-size: 16px;
+    border-bottom: 3px solid #66a500;
+    outline: none;
+    transition: border-bottom-color 0.3s;
+    border: none;
     border-radius: 4px;
     margin-bottom: 10px;
   }
+  #task-input:focus {
+    border-bottom-color: #db2929
+  }
 
   .add-button {
-    background-color: #4caf50;
+    background-color: #007e04;
     color: #fff;
     border: none;
     padding: 10px 15px;
@@ -88,22 +76,27 @@ body {
   }
 
   .add-button:hover {
-    background-color: #45a049;
+    background-color: #58cc5e;
   }
   .task-container2 {
-    background-color: #7981fa;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #fdc8a4;
     border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.925);
     padding: 10px;
-    width: 400px;
+    width: 275px;
+    height: fit-content;
     text-align: center;
     margin: 15px auto; /* Centering the container */
   }
   .delete-button {
-    background-color: #ac0000;
+    background-color: #0f0092;
     color: #fff;
     border: none;
-    padding: 10px 15px;
+    padding: 5px 8px;
     border-radius: 4px;
     cursor: pointer;
+  }
+  .delete-button:hover {
+    background-color: #c40000;
   }
