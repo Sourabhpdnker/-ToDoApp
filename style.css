@@ -1,37 +1,38 @@
 #mainheading{
     margin: 5px;
     text-align: center;
-    color: rgb(253, 250, 250);
+    color: rgb(0, 236, 253);
     font-size: 42px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: cursive;
 }
 #mainheading:hover{
     margin: 5px;
     text-align: center;
-    color: rgb(252, 251, 251);
+    color: rgb(1, 233, 233);
     font-size: 46px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: cursive;
 }
 #subtitle{
     margin: 3px;
     text-align: center;
-    color: rgb(247, 243, 250);
+    color: rgb(0, 238, 226);
     font-size: 18px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 700;
+    font-family: cursive;
 }
 #subtitle:hover{
     margin: 3px;
     text-align: center;
-    color: rgb(214, 101, 248);
+    color: rgb(0, 255, 213);
     font-size: 21px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: cursive;
 }
 .navheading{
-    background-color: rgb(0, 5, 82);
+    background-color: transparent;
     margin:10px;
+    opacity: 0.5px;
     padding:7px;
     border-radius: 10px;
-    box-shadow: 0 0 15px rgba(120, 0, 233, 0.925);
 }
 
 
@@ -40,11 +41,12 @@ body {
     background-color: #77a4f7;
     margin: 0;
     padding: 0;
+    background-image: url(./images/pngtree-mobile-app-development-animation-3d-picture-image_2730558.jpg);
   }
   .task-container {
     box-sizing: border-box;
-    box-shadow: 0 0 15px rgba(135, 4, 223, 0.986);
-    background-color: #fff;
+    /* box-shadow: 0 0 15px rgba(63, 4, 102, 0.986); */
+    background-color: transparent;
     border-radius: 8px;
     padding: 20px;
     width: 550px;
@@ -82,14 +84,16 @@ body {
   }
   .task-container2 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color: #fdc8a4;
+    /* background-color: #fdc8a4; */
+    background-color: transparent;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.925);
+    box-shadow: 0 0 08px rgba(1, 0, 77, 0.925);
     padding: 10px;
     width: 275px;
     gap: 60px;
     height: fit-content;
     text-align: center;
+    color: rgb(253, 255, 255);
     margin: 15px;
     margin-left: 65px; /* Centering the container */
     display:inline-block;
@@ -107,7 +111,7 @@ body {
     background-color: #c40000;
   }
   p{
-    color: rgb(65, 129, 0);
+    color: rgb(128, 255, 0);
   }
   #datestyle{
     font-size: 12px;
