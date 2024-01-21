@@ -1,3 +1,4 @@
+
 #mainheading{
     margin: 5px;
     text-align: center;
@@ -42,6 +43,9 @@ body {
     margin: 0;
     padding: 0;
     background-image: url(./images/pngtree-mobile-app-development-animation-3d-picture-image_2730558.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
   }
   .task-container {
     box-sizing: border-box;
